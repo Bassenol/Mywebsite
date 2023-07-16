@@ -1,20 +1,31 @@
-<div class="ui container">
- 
-<div class="olive row" style="margin-top: 10px;">
-<h3 style="position:sticky;display: flex;" class="ui olive block header">
- Pınar'ın Güzellik Salonu
-</h3>
-</div>
+<div class="ui container stackable">
+  <div class="olive row" style="margin-top: 10px">
+    <h3 style="position: sticky; display: flex" class="ui olive block header">
+      Pınar'ın Güzellik Salonu
+    </h3>
+  </div>
 
-<div class="ui olive secondary pointing menu">
-  <a class="active item" routerLink="/mainhome" routerLinkActive="active"> Ana Sayfa </a>
-  <a class="item" routerLink="/firsthome" routerLinkActive="active"> Epilasyon </a>
-  <a class="item" routerLink="/secondhome" routerLinkActive="active"> Hizmetlerimiz </a>
-  <a class="item" routerLink="/thirdhome" routerLinkActive="active"> Kampanyalarımız </a>
-  <a class="item" routerLink="/thirdhome" routerLinkActive="active"> Hakkımızda </a>
-  <a class="item" routerLink="/thirdhome" routerLinkActive="active"> İletişim </a>
-</div>
-<div class="ui segment">
-  <router-outlet></router-outlet>
-</div>
+  <div class="ui olive secondary pointing menu stackable">
+    <a class="active item" routerLink="/mainhome" routerLinkActive="active">
+      Ana Sayfa
+    </a>
+    <a class="item" routerLink="/firsthome" routerLinkActive="active">
+      Epilasyon
+    </a>
+    <a class="item" routerLink="/secondhome" routerLinkActive="active">
+      Hizmetlerimiz
+    </a>
+    <a class="item" routerLink="/thirdhome" routerLinkActive="active">
+      Kampanyalarımız
+    </a>
+    <a class="item" routerLink="/thirdhome" routerLinkActive="active">
+      Hakkımızda
+    </a>
+    <a class="item" routerLink="/thirdhome" routerLinkActive="active">
+      İletişim
+    </a>
+  </div>
+  <div class="ui segment">
+    <router-outlet></router-outlet>
+  </div>
 </div>
